@@ -1,0 +1,9 @@
+.Room {
+    display: flex;
+}
+
+.Input {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}

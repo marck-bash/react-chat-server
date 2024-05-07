@@ -1,0 +1,40 @@
+.SignUp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 2%;
+    padding: 15px;
+    width: 100%;
+}
+
+.SignUp > h1 {
+    margin: 0 0 10px 0;
+}
+
+.SignUp > label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.Submit {
+    display: flex;
+    width: 75%;
+    justify-content: center;
+    background-color: green;
+}
+
+.Login {
+    display: flex;
+    width: 65%;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 5px;
+    justify-content: center;
+    background-color: grey;
+    color: black
+}
