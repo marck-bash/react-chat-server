@@ -10,7 +10,7 @@
     "node": ">= 14.0.0",
     "npm": ">= 6.0.0"
   },
-  "homepage": "https://marck-bash.github.io/react-chat-server",
+  "homepage": "",
   "repository": {
     "type": "git",
     "url": ""
@@ -23,9 +23,7 @@
   "contributors": [],
   "scripts": {
     "dev": "nodemon app.js",
-    "test": "",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "test": ""
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
@@ -35,8 +33,5 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.2.4",
     "nodemon": "^3.1.0"
-  },
-  "devDependencies": {
-    "gh-pages": "^6.1.1"
   }
 }
