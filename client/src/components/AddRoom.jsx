@@ -9,6 +9,7 @@ export default function AddRoom({ setToken }) {
         //stops page from refreshing when new room is added
         event.preventDefault();
         
+        //fetching from /room to make a post
         const response = await fetch("http://localhost:3000/room", {
             method: "POST",
             headers: {

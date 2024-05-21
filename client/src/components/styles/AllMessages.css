@@ -7,3 +7,18 @@
     width: 60vw;
     color: white;
 }
+
+.button {
+   background-color: grey;
+}
+
+button:hover {
+    background-color: black;
+}
+
+.buttonArea {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}

@@ -1,14 +1,15 @@
 import Message from "../models/message.models.js";
 import { Router } from "express";
+import validationMiddleware from "../middleware/validationMiddleware.js";
 
 const router = Router();
 
 //Added a route to post a new message
-router.post("/message/:room", async (request, response) => {
+router.post("/message/:room", validationMiddleware, async (request, response) => {
     try {
         const message = new Message({
             ...request.body,
-            user: request.body.user,
+            user: request.user._id,
             room: request.params.room,
             body: request.body.body
         });
